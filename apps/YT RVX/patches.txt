@@ -1,0 +1,7 @@
+-e "Custom Shorts action buttons" -O "iconType=round"
+-e "Custom branding for YouTube" -O "customName=YouTube RVX" -O "appIcon=branding/youtube/launcher/google_family" -O "customIcon=branding/youtube/header/google_family"
+-e "GmsCore support" -O "packageNameYouTube=app.rvx.android.youtube"
+-e "MaterialYou"
+-e "Overlay buttons" -O "iconType=thin"
+-e Theme -O "darkThemeBackgroundColor=@android:color/system_neutral1_900" -O "lightThemeBackgroundColor=@android:color/system_neutral1_100"
+-e "Change version code"
