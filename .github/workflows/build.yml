@@ -20,6 +20,9 @@ on:
           - 'YT Music RV'
           - 'YT Music RVX A7'
           - 'YT Music RVX A5-6'
+          - 'Photos Morphe'
+          - 'Photos Morphe A6'
+          - 'Photos RV'
 
 jobs:
   patch:

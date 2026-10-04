@@ -157,7 +157,8 @@ dlApp() {
   crVersion=$(curl -sL "https://chromiumdash.appspot.com/fetch_releases?channel=Stable&platform=Android&num=1" | jq -r '.[0].version')
   USER_AGENT="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/$crVersion Mobile Safari/537.36"
   #curl -V | head -1 | awk '{print $1" "$2}'
-  APKMdl "$pkg" "" ${appVer} "APK" "$archRef"
+  [ "$pkg" == "com.google.android.apps.photos" ] && bcmIdx=2 || bcmIdx=
+  APKMdl "$pkg" "$bcmIdx" ${appVer} "APK" "$archRef"
   appPath="$outputPath"
   appVer="$VERSION"
 }
@@ -242,8 +243,11 @@ ptchApp() {
   } >> "$GITHUB_ENV"
   tempPath="$buildDir/$(date +"%Y%m%d%H%M%S")"
   mkdir -p "$tempPath"
-  ([ $foundGmsPtch == true ] && [ $modPtchrArgs == true ]) && outAppPath="$buildDir/${ass}_v${appVer}_v${ptchVer}_gf_${abi}.apk" || outAppPath="$outDir/${ass}_v${appVer}_v${ptchVer}_gf_${abi}.apk"
-  modName="${ass}_v${appVer}_v${ptchVer}_gf_${abi}.zip"
+  ([ "$pkg" == "com.google.android.youtube" ] || [ "$pkg" == "com.google.android.apps.youtube.music" ]) && outAppPath="$outDir/${ass}_v${appVer}_v${ptchVer}_gf_${abi}.apk" || outAppPath="$outDir/${ass}_v${appVer}_v${ptchVer}_${abi}.apk"
+  if [ $foundGmsPtch == true ] && [ $modPtchrArgs == true ]; then
+    ([ "$pkg" == "com.google.android.youtube" ] || [ "$pkg" == "com.google.android.apps.youtube.music" ]) && outAppPath="$buildDir/${ass}_v${appVer}_v${ptchVer}_gf_${abi}.apk" || outAppPath="$buildDir/${ass}_v${appVer}_v${ptchVer}_${abi}.apk"
+  fi
+  ([ "$pkg" == "com.google.android.youtube" ] || [ "$pkg" == "com.google.android.apps.youtube.music" ]) && modName="${ass}_v${appVer}_v${ptchVer}_gf_${abi}.zip" || modName="${ass}_v${appVer}_v${ptchVer}_${abi}.zip"
   outModPath="$outDir/$modName"
   echo -e "$running Patching ${appName}_v${appVer}-${abi}..."
   if [ "$cliVer" == "3.1.4" ]; then

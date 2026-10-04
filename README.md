@@ -37,6 +37,12 @@ RV|8~17|[[⤓]](../../releases?q=YT+Music+RV&expanded=false)|Hide ads|[</>](http
 RVX A7|7|[[⤓]](../../releases?q=YT+Music+RVX+A7&expanded=false)|Hide ads|[</>](https://github.com/inotia00/revanced-patches)
 RVX A5-6|5~6|[[⤓]](../../releases?q=YT+Music+RVX+A5-6&expanded=false)|Hide ads|[</>](https://github.com/inotia00/revanced-patches)
 
+Photos|Android|Link|Features|SrcCode
+:--|:--|:--|:--|:--
+Morphe|7~17|[[⤓]](../../releases?q=Photos+Morphe&expanded=false)|Unlimited storage|[</>](https://github.com/RookieEnough/De-ReVanced)
+Morphe A6|6|[[⤓]](../../releases?q=Photos+Morphe+A6&expanded=false)|Unlimited storage|[</>](https://github.com/RookieEnough/De-ReVanced)
+RV|5|[[⤓]](../../releases?q=Photos+RV&expanded=false)|Unlimited storage|[</>](https://gitlab.com/ReVanced/revanced-patches)
+
 ## 🤝 Contributing
 > Issues and feature requests are welcome! Feel free to check the [page](https://github.com/arghya339/ask-me).
 
