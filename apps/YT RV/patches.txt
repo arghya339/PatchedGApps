@@ -1,0 +1,6 @@
+-e "GmsCore support"
+-e "Change header" -O "Custom header logo=revanced_branding/youtube/header/google_family"
+-e "Custom branding" -O "App name=YouTube RV" -O "Custom icon=revanced_branding/youtube/launcher/google_family"
+-e "Predictive back gesture"
+-e "Change version code" -OversionCode="2147483647"
+-d "Announcements"

@@ -1,0 +1,197 @@
+[
+  {
+    "app": "YT Morphe",
+    "cliSrc": "https://github.com/MorpheApp/morphe-desktop",
+    "cliAssRgx": "morphe-desktop-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://github.com/MorpheApp/morphe-patches",
+    "ptchAssRgx": "patches-*.mpp",
+    "pkg": "com.google.android.youtube",
+    "appVer": null,
+    "abilist": [
+      "universal"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT Morphe A9",
+    "cliSrc": "https://github.com/MorpheApp/morphe-desktop",
+    "cliAssRgx": "morphe-desktop-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://github.com/MorpheApp/morphe-patches",
+    "ptchAssRgx": "patches-*.mpp",
+    "pkg": "com.google.android.youtube",
+    "appVer": "21.23.492",
+    "abilist": [
+      "universal"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT RVX",
+    "cliSrc": "https://github.com/MorpheApp/morphe-desktop",
+    "cliAssRgx": "morphe-desktop-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://github.com/anddea/revanced-patches",
+    "ptchAssRgx": "patches-*.mpp",
+    "pkg": "com.google.android.youtube",
+    "appVer": null,
+    "abilist": [
+      "universal"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT RVX A8",
+    "cliSrc": "https://github.com/MorpheApp/morphe-desktop",
+    "cliAssRgx": "morphe-desktop-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://github.com/anddea/revanced-patches",
+    "ptchAssRgx": "patches-*.mpp",
+    "pkg": "com.google.android.youtube",
+    "appVer": "20.26.46",
+    "abilist": [
+      "universal"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT RV",
+    "cliSrc": "https://github.com/ReVanced/revanced-cli",
+    "cliAssRgx": "revanced-cli-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://gitlab.com/ReVanced/revanced-patches",
+    "ptchAssRgx": "patches-*.rvp",
+    "pkg": "com.google.android.youtube",
+    "appVer": null,
+    "abilist": [
+      "universal"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT RVX A6-7",
+    "cliSrc": "https://github.com/inotia00/revanced-cli",
+    "cliAssRgx": "revanced-cli-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://github.com/kitadai31/revanced-patches-android6-7",
+    "ptchAssRgx": "patches-*.rvp",
+    "pkg": "com.google.android.youtube",
+    "appVer": "17.34.36",
+    "abilist": [
+      "universal"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT RVX A5",
+    "cliSrc": "https://github.com/inotia00/revanced-cli",
+    "cliAssRgx": "revanced-cli-*-all.jar",
+    "cliVer": "3.1.4",
+    "intSrc": "https://github.com/d4n3436/revanced-integrations",
+    "ptchSrc": "https://github.com/d4n3436/revanced-patches-android5",
+    "ptchAssRgx": "patches-*.jar",
+    "pkg": "com.google.android.youtube",
+    "appVer": "16.40.36",
+    "abilist": [
+      "universal"
+    ],
+    "mkMod": false
+  },
+  {
+    "app": "YT Music Morphe",
+    "cliSrc": "https://github.com/MorpheApp/morphe-desktop",
+    "cliAssRgx": "morphe-desktop-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://github.com/MorpheApp/morphe-patches",
+    "ptchAssRgx": "patches-*.mpp",
+    "pkg": "com.google.android.apps.youtube.music",
+    "appVer": null,
+    "abilist": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86_64",
+      "x86"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT Music RVX",
+    "cliSrc": "https://github.com/MorpheApp/morphe-desktop",
+    "cliAssRgx": "morphe-desktop-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://github.com/anddea/revanced-patches",
+    "ptchAssRgx": "patches-*.mpp",
+    "pkg": "com.google.android.apps.youtube.music",
+    "appVer": null,
+    "abilist": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86_64",
+      "x86"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT Music RV",
+    "cliSrc": "https://github.com/ReVanced/revanced-cli",
+    "cliAssRgx": "revanced-cli-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://gitlab.com/ReVanced/revanced-patches",
+    "ptchAssRgx": "patches-*.rvp",
+    "pkg": "com.google.android.apps.youtube.music",
+    "appVer": null,
+    "abilist": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86_64",
+      "x86"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT Music RVX A7",
+    "cliSrc": "https://github.com/inotia00/revanced-cli",
+    "cliAssRgx": "revanced-cli-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://github.com/inotia00/revanced-patches",
+    "ptchAssRgx": "patches-*.rvp",
+    "pkg": "com.google.android.apps.youtube.music",
+    "appVer": "6.42.55",
+    "abilist": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86_64",
+      "x86"
+    ],
+    "mkMod": true
+  },
+  {
+    "app": "YT Music RVX A5-6",
+    "cliSrc": "https://github.com/inotia00/revanced-cli",
+    "cliAssRgx": "revanced-cli-*-all.jar",
+    "cliVer": null,
+    "intSrc": null,
+    "ptchSrc": "https://github.com/inotia00/revanced-patches",
+    "ptchAssRgx": "patches-*.rvp",
+    "pkg": "com.google.android.apps.youtube.music",
+    "appVer": "6.20.51",
+    "abilist": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86_64",
+      "x86"
+    ],
+    "mkMod": true
+  }
+]
