@@ -1,0 +1,11 @@
+-e "GmsCore support"
+-e "Custom Shorts action buttons" -O "iconType=round"
+-e "Custom branding icon for YouTube" -O "appIcon=branding/youtube/launcher/google_family"
+-e "Custom branding name for YouTube" -O "appName=YouTube RVX"
+-e "Custom header for YouTube" -O "customHeader=branding/youtube/header/google_family"
+-e MaterialYou
+-e "Overlay buttons" -O "iconType=thin"
+-e "Return YouTube Username"
+-e "Spoof streaming data" -O "useIOSClient=true"
+-e "Change version code"
+-d "Hide accessibility controls dialog"

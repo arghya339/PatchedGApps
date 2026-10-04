@@ -1,0 +1,52 @@
+# Copyright (C) 2026, Arghyadeep Mondal <github.com/arghya339>
+
+name: Patch
+on:
+  workflow_dispatch:
+    inputs:
+      apps:
+        type: choice
+        default: 'YT Morphe'
+        options:
+          - 'YT Morphe'
+          - 'YT Morphe A9'
+          - 'YT RVX'
+          - 'YT RVX A8'
+          - 'YT RV'
+          - 'YT RVX A6-7'
+          - 'YT RVX A5'
+          - 'YT Music Morphe'
+          - 'YT Music RVX'
+          - 'YT Music RV'
+          - 'YT Music RVX A7'
+          - 'YT Music RVX A5-6'
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 2
+      - name: Patch App
+        run: bash build.sh "${{ inputs.apps }}"
+      - name: Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ env.TAG }}
+          name: ${{ env.NAME }}
+          skipIfReleaseExists: false
+          generateReleaseNotes: false
+          bodyFile: ${{ github.workspace }}/body.md
+          removeArtifacts: false
+          replacesArtifacts: true
+          allowUpdates: true
+          artifacts: "${{ env.OUT_DIR }}/**/*"
+          makeLatest: ${{ env.MK_LATEST }}
+          prerelease: ${{ env.MK_PRE }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+####################################################

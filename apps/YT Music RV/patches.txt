@@ -1,0 +1,2 @@
+-e "GmsCore support"
+-e "Custom branding" -O "App name=YT Music RV" -O "Custom icon=revanced_branding/music/launcher/google_family"
