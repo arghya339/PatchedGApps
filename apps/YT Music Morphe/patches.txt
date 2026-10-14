@@ -1,0 +1,6 @@
+-e "GmsCore support"
+-e "Change header" -O "custom=morphe_branding/music/header/google_family"
+-e "Custom branding" -O "customName=YT Music Morphe" -O "customIcon=morphe_branding/music/launcher/google_family" -O "appIcon=morphe_branding/music/launcher/google_family"
+-e "Theme" -O "darkThemeColor=@android:color/system_neutral1_900"
+-e "Change installer source"
+-e "Disable Play Store updates"
