@@ -1,0 +1,1 @@
+"music_change_miniplayer_color": true
