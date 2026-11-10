@@ -1,0 +1,6 @@
+-e "GmsCore support"
+-e "Change header" -O "custom=morphe_branding/youtube/header/google_family"
+-e "Custom branding" -O "customName=YouTube Morphe" -O "customIcon=morphe_branding/youtube/launcher/google_family"
+-e "Theme" -O "darkThemeColor=@android:color/system_neutral1_900" -O "lightThemeColor=@android:color/system_neutral1_100"
+-e "Change installer source"
+-e "Disable Play Store updates"
