@@ -1,0 +1,103 @@
+[ {
+  "patchName" : "Spoof signature",
+  "options" : [ {
+    "key" : "packageName",
+    "value" : ""
+  }, {
+    "key" : "certificateData",
+    "value" : ""
+  } ]
+}, {
+  "patchName" : "Change version code",
+  "options" : [ {
+    "key" : "versionCode",
+    "value" : "2147483647"
+  } ]
+}, {
+  "patchName" : "Custom branding icon for YouTube Music",
+  "options" : [ {
+    "key" : "appIcon",
+    "value" : "branding/music/launcher/google_family"
+  }, {
+    "key" : "changeSplashIcon",
+    "value" : true
+  }, {
+    "key" : "restoreOldSplashIcon",
+    "value" : false
+  } ]
+}, {
+  "patchName" : "Custom branding name for YouTube Music",
+  "options" : [ {
+    "key" : "appNameNotification",
+    "value" : "YouTube Music RVX"
+  }, {
+    "key" : "appNameLauncher",
+    "value" : "YT Music RVX"
+  } ]
+}, {
+  "patchName" : "Custom header for YouTube Music",
+  "options" : [ {
+    "key" : "customHeader",
+    "value" : "branding/music/header/google_family"
+  } ]
+}, {
+  "patchName" : "Dark theme",
+  "options" : [ {
+    "key" : "darkThemeBackgroundColor",
+    "value" : "@android:color/black"
+  }, {
+    "key" : "materialYou",
+    "value" : true
+  } ]
+}, {
+  "patchName" : "Translations for YouTube Music",
+  "options" : [ {
+    "key" : "customTranslations",
+    "value" : ""
+  }, {
+    "key" : "selectedTranslations",
+    "value" : "el-rGR, es-rES, fr-rFR, hu-rHU, id-rID, in, it-rIT, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW"
+  }, {
+    "key" : "selectedStringResources",
+    "value" : "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu"
+  } ]
+}, {
+  "patchName" : "Visual preferences icons for YouTube Music",
+  "options" : [ {
+    "key" : "settingsMenuIcon",
+    "value" : "extension"
+  } ]
+}, {
+  "patchName" : "Player components",
+  "options" : [ {
+    "key" : "swipeToDismissMiniPlayer",
+    "value" : true
+  } ]
+}, {
+  "patchName" : "GmsCore support",
+  "options" : [ {
+    "key" : "gmsCoreVendorGroupId",
+    "value" : "app.revanced"
+  }, {
+    "key" : "checkGmsCore",
+    "value" : true
+  }, {
+    "key" : "disableCoreServices",
+    "value" : false
+  }, {
+    "key" : "packageNameYouTubeMusic",
+    "value" : "app.rvx.android.apps.youtube.music"
+  }, {
+    "key" : "patchAllManifest",
+    "value" : false
+  } ]
+}, {
+  "patchName" : "Settings for YouTube Music",
+  "options" : [ {
+    "key" : "insertPosition",
+    "value" : "pref_key_parent_tools"
+  }, {
+    "key" : "rvxSettingsLabel",
+    "value" : "RVX"
+  } ]
+} ]

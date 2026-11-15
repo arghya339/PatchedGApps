@@ -1,0 +1,5 @@
+-e "Custom branding for YouTube Music" -O "customName=YT Music RVX" -O "appIcon=branding/music/launcher/google_family" -O "customIcon=branding/music/header/google_family"
+-e "GmsCore support" -O "packageNameYouTubeMusic=app.rvx.android.apps.youtube.music"
+-e "Dark theme" -O "darkThemeBackgroundColor=@android:color/system_neutral1_900" -O "materialYou=true"
+-e "Disable music video in album"
+-e "Change version code"
